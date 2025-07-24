@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: pink;
+}
+
+.list li {
+  list-style-type: decimal;
+  margin-left: 3rem;
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.delete {
+  background-color: bisque;
+}

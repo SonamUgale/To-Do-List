@@ -7,13 +7,28 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>To Do List</h1>
-    <input type="text" placeholder="Write your task" />
-    <button type="submit" id="at">Add Task</button>
-    <ul>
-      <li>Eat <button class="delete">Delete</button></li>
-      <li>Sleep <button class="delete">Delete</button></li>
-    </ul>
-    <script src="app.js"></script>
+    <div>
+      <div class="heading">
+        <h1>To Do List</h1>
+      </div>
+      <input type="text" placeholder="Write your task" />
+      <button type="submit" id="at">Add Task</button>
+      <div class="heading4">
+        <h4>Tasks To Do</h4>
+      </div>
+      <hr />
+      <hr />
+      <div class="list">
+        <ul>
+          <span class="list-item">
+            <li>Eat <button class="delete">Delete</button></li>
+          </span>
+          <span>
+            <li>Sleep <button class="delete">Delete</button></li>
+          </span>
+        </ul>
+      </div>
+      <script src="app.js"></script>
+    </div>
   </body>
 </html>
